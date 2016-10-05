@@ -32,6 +32,7 @@ if __name__ == '__main__':
     
     # textWidget
     textWidget = Text(root)
+    textWidget.focus_set()
     textWidget.pack(fill=BOTH, expand=YES) # fillとexpandでウィンドウと一緒に大きさが変わるようにする。
     #textWidget.insert(END, "countrty   　capital    language\njapan       tokyo      日本語\n\namerica                english\n     \n\tEngland - english\n\tphilipenese  manila")
     textWidget.bind("<Control-Key-a>", select_all) # ctrl+aで全選択できるようにすうｒ
