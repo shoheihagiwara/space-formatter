@@ -71,7 +71,7 @@ def format_with_space(u_str):
     #
     # I used to write above, but it did not work on Windows.
     # Apparently "\r\n" is interpreted and converted into "\n\r\n"
-    # when put onto tkinter textWidget. So I fixed it as below. Now it works.
+    # when copied from tkinter textWidget on Windows. So I fixed it as below. Now it works.
     return "\n".join(formatted_lines)
 
 if __name__ == '__main__':
