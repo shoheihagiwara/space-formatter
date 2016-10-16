@@ -2,7 +2,7 @@
 format text with space.
 
 # How to Install
-Execute install.sh. This will create a spaceformatter directory and create and move necessary files in that directory
+Just download the entire project inside any directory of your choice.
 
 # How to Uninstall
 Delete the spaceformatter directory created at installation.
